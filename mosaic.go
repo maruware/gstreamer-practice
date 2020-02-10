@@ -27,5 +27,5 @@ func MosaicCmd(nx int, ny int, width int, height int) *exec.Cmd {
 		}
 	}
 
-	return exec.Command("gst-launch-1.0", args...)
+	return exec.Command(exe, args...)
 }
